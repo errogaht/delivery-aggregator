@@ -1,0 +1,26 @@
+{
+  "name": "errogaht/delivery-aggregator",
+  "type": "library",
+  "description": "Не работает пока! Аггрегатор служб доставки ПЭК, Деловые линии, Желдор",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Teterin",
+      "email": "7018407@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.0",
+    "php": ">=5.6.4",
+    "tightenco/collect": "^5.0",
+    "symfony/cache": "^3.0"
+  },
+  "require-dev": {
+    "kint-php/kint": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Errogaht\\DeliveryAggregator\\": "src/"
+    }
+  }
+}
