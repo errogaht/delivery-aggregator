@@ -16,7 +16,7 @@
     "symfony/cache": "^3.0"
   },
   "require-dev": {
-    "kint-php/kint": "^2.1"
+    "kint-php/kint": "*"
   },
   "autoload": {
     "psr-4": {
